@@ -1,0 +1,23 @@
+{
+  "name": "ShoppingBask3t",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^2.6.0",
+    "react-addons-test-utils": "^15.4.0",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "deep-freeze": "0.0.1",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

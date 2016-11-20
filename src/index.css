@@ -1,0 +1,42 @@
+/* TABLE --------------------------------------------------------- */
+table.table tr.subtotal td {
+    border-width: 3px;
+}
+
+table.table tr.discount td {
+    color: #666;
+}
+
+table.table tr.total td {
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+table.table tr.empty td {
+    font-style: italic;
+}
+
+/* CURRENCY ------------------------------------------------------ */
+span.currency:before {
+ content: '$';
+ margin-right: 1px;
+}
+
+
+/* AVAILABLE PRODUCTS -------------------------------------------- */
+.available-products, .available-products .row {
+    margin-bottom: 1em;
+}
+
+.available-products span.currency {
+    display: block;
+    margin-top: 5px;
+}
+
+.available-products button {
+    margin-right: 10px;
+}
+
+.available-products button:first-child {
+    margin-left: 0;
+}
